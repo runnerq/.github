@@ -12,7 +12,6 @@
 RunnerQ persists everything through a storage interface that each SDK exports:
 
 - **PostgreSQL** is the built-in backend in every SDK.
-- **Redis** is available for Rust through the [`runner_q_redis`](https://crates.io/crates/runner_q_redis) crate.
 - **Your own backend:** implement the storage interface (`storage.Storage` in Go, the `runnerq/storage` contract in TypeScript, the `Storage` trait in Rust). Go ships a conformance suite, `storage/storagetest`, which runs every behaviour the engine relies on against your backend. If your backend passes it, the engine works on it exactly as it does on Postgres.
 - **RunnerQ Cloud hosted storage:** the [cloud-storage-go](https://github.com/runnerq/cloud-storage-go) and [cloud-storage-ts](https://github.com/runnerq/cloud-storage-ts) adapters plug in the same way. Your workers still run your handlers locally, and storage and coordination go to RunnerQ Cloud.
 
