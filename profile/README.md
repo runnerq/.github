@@ -25,9 +25,9 @@ RunnerQ persists everything through a storage interface that each SDK exports:
 
 | Repository | What it is |
 |---|---|
-| [runnerq-go](https://github.com/runnerq/runnerq-go) | Durable Go functions, with pluggable storage |
+| [runnerq-go](https://github.com/runnerq/runnerq-go) | Durable Golang functions, with pluggable storage |
 | [runnerq-ts](https://github.com/runnerq/runnerq-ts) | Durable TypeScript functions, with pluggable storage |
-| [runnerq-rust](https://github.com/runnerq/runnerq-rust) | Activity queue and worker system for Rust |
+| [runnerq-rust](https://github.com/runnerq/runnerq-rust) | Durable Rust functions, with pluggable storage |
 | [runnerq-spec](https://github.com/runnerq/runnerq-spec) | The language-neutral contract every RunnerQ implementation follows: shared constants, golden test vectors and the Postgres schema |
 | [cloud-storage-go](https://github.com/runnerq/cloud-storage-go) | RunnerQ Cloud storage backend for the Go SDK |
 | [cloud-storage-ts](https://github.com/runnerq/cloud-storage-ts) | RunnerQ Cloud storage backend for the TypeScript SDK |
