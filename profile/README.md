@@ -32,4 +32,4 @@ RunnerQ persists everything through a storage interface that each SDK exports:
 | [cloud-storage-go](https://github.com/runnerq/cloud-storage-go) | RunnerQ Cloud storage backend for the Go SDK |
 | [cloud-storage-ts](https://github.com/runnerq/cloud-storage-ts) | RunnerQ Cloud storage backend for the TypeScript SDK |
 
-The SDKs and the spec are MIT licensed.
+All repositories are MIT licensed.
